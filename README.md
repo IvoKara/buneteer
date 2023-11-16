@@ -28,3 +28,5 @@ cd my-buneteer-app
 bun i
 ```
 If you do not have `bun` installed on your machine, see how in [Bun's website.](https://bun.sh)
+
+Enjoy!
