@@ -4,7 +4,7 @@
   "author": "Ivo Karaneshev",
   "module": "index.ts",
   "scripts": {
-    "build": "bun run index.ts",
+    "build": "bun run src/main.ts",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
