@@ -1,11 +1,11 @@
 import puppeteer from 'puppeteer'
 import { chormeDevelopersUrl } from './constants'
-import { delay } from './utils'
+import { delay, isHeadless } from './utils'
 import type { Status } from './types';
 
 (async () => {
   const browser = await puppeteer.launch({
-    headless: false,
+    headless: isHeadless,
   })
 
   const page = await browser.newPage()

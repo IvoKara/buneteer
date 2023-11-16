@@ -2,9 +2,10 @@
   "name": "buneteer",
   "type": "module",
   "author": "Ivo Karaneshev",
-  "module": "index.ts",
+  "module": "src/main.ts",
   "scripts": {
-    "build": "bun run src/main.ts",
+    "start": "bun run src/main.ts",
+    "dev": "HEADLESS=false bun run src/main.ts",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },
