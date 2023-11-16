@@ -3,8 +3,14 @@
   "module": "index.ts",
   "type": "module",
   "author": "Ivo Karaneshev",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
   "devDependencies": {
-    "bun-types": "latest"
+    "@antfu/eslint-config": "^1.1.4",
+    "bun-types": "latest",
+    "eslint": "^8.53.0"
   },
   "peerDependencies": {
     "typescript": "^5.2.2"
