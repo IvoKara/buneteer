@@ -1,7 +1,7 @@
 import antfu from '@antfu/eslint-config'
 
 export default antfu({
-    rules: {
-        'no-console': ['error', { allow: ['warn', 'error', 'info'] }]
-    }
+  rules: {
+    'no-console': ['error', { allow: ['warn', 'error', 'info'] }],
+  },
 })
