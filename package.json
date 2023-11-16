@@ -2,10 +2,11 @@
   "name": "buneteer",
   "module": "index.ts",
   "type": "module",
+  "author": "Ivo Karaneshev",
   "devDependencies": {
     "bun-types": "latest"
   },
   "peerDependencies": {
-    "typescript": "^5.0.0"
+    "typescript": "^5.2.2"
   }
 }
